@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* MYERS RESET*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* END MYERS RESET*/
+
+
+body {
+	background-color:#666;
+	}
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+
+
+/* Mobile Layout: 480px and below. */
+
+
+@media only screen and (min-width: 480px) {
+	
+	#wrapper {
+		max-width: 480px;
+		width: 100%;
+		background-color:thistle;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	
+	.welcome {
+		background-color:darkgrey;
+		height: 360px;
+		width: 300px;
+		margin-top: 17%;
+		margin-left: 20%;
+		margin-bottom: 20%;
+		border-radius: 5px;
+		border:black;
+		border-style:solid;
+		float: left;
+	}
+	
+	h3 {
+		background-color: lightgray;
+		border: black;
+		border-bottom-style: solid;
+		height: 60px;
+		font-size: 25px;
+		font-family: 'Courier Prime', monospace;
+		text-align: center;
+		padding-top: 8px;
+	}
+	
+	p {
+		font-family: 'Courier Prime', monospace;
+		font-size: 30px;
+		text-align: center;
+		margin-top: 11%;
+		margin-bottom: 13%;
+	}
+	
+	button {
+		font-size: 18px;
+		font-family: 'Courier Prime', monospace;
+		color: white;
+		background-color:mediumpurple;
+		margin-left: 35%;
+		padding: 7px;
+	}
+	
+	button:hover {
+		background-color:mediumslateblue;
+	}
+	
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+	
+#wrapper {
+	max-width: 1232px;
+	width: 100%;
+	background-color:thistle;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.welcome {
+    background-color:darkgrey;
+    height: 250px;
+    width: 500px;
+    margin-top: 17%;
+    margin-left: 30%;
+    margin-bottom: 20%;
+    border-radius: 5px;
+    border:black;
+    border-style:solid;
+    float: left;
+}
+
+h3 {
+    background-color: lightgray;
+    border: black;
+    border-bottom-style: solid;
+    height: 30px;
+    font-size: 25px;
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+    padding-top: 8px;
+}
+
+p {
+    font-family: 'Courier Prime', monospace;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+button {
+    font-size: 18px;
+    font-family: 'Courier Prime', monospace;
+    color: white;
+    background-color:mediumpurple;
+    margin-left: 70%;
+    padding: 7px;
+}
+
+button:hover {
+    background-color:mediumslateblue;
+}
+
+
+}
+
